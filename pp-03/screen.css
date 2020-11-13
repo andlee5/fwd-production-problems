@@ -43,7 +43,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
-
+  #one,
+  #two {
+    height: 50vh;
+  }
+  #three {
+    height: 50vh;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+  }
 
 }
 
